@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f2f2f2;
+}
+
+.header {
+  background: #16a085;
+  color: #fff;
+  padding: 10px 20px;
+  border-bottom: 2px solid #12876f;
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  font-size: 24px;
+}
+
+.navbar nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar nav ul li {
+  margin: 0 10px;
+}
+
+.navbar nav ul li button {
+  color: #fff;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 0;
+  text-decoration: none;
+}
+
+.navbar nav ul li button:hover {
+  color: black;
+}
+
+.navbar-toggle {
+  display: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #fff;
+  position: absolute;
+  right: 20px; /* Adjusted for better positioning */
+}
+
+/* Styles for nav element */
+nav {
+  transition: background-color 0.3s ease;
+}
+
+/* Active and noactive styles for nav element */
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar nav ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar nav ul.active {
+    display: flex;
+  }
+
+  .navbar nav ul li {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .navbar nav ul li button {
+    font-size: 16px;
+    padding: 10px;
+    display: block;
+    width: 100%;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+  nav.active {
+    /* background-color: black; */
+    display: block;
+  }
+  
+  nav.noactive {
+    /* background-color: pink; */
+    display: none;
+  }
+}

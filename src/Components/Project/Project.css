@@ -1,0 +1,126 @@
+/* Project.css */
+
+.griditem {
+  color: #16a085;
+  background-color: white; 
+  height: 340px;
+  width: 100%;
+  overflow: auto;
+  border: 5px solid #16a085;
+  border-radius: 15px;
+  padding: 20px;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+}
+
+.project-details {
+  margin-top: 15px;
+  width: 100%;
+}
+
+.project-details ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.project-details ul li {
+  display: inline-block; /* Ensures tags are displayed inline */
+  margin-right: 5px;
+  margin-bottom: 5px;
+  background-color: #16a085;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.project-details ul li:hover {
+  background-color: #fff;
+  color: #16a085;
+  border: 2px solid #16a085;
+}
+
+.project-links {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.project-links button {
+  padding: 4px 8px;
+  border: none;
+  border-radius: 4px;
+  background-color: #16a085;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+  font-size: 12px;
+}
+
+.project-links button:hover {
+  background-color: #fff;
+  color: #16a085;
+  border: 2px solid #16a085;
+}
+
+.project-links button a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.description-container {
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.description-container.collapsed {
+  max-height: 100px;
+}
+
+.description-container.expanded {
+  max-height: none;
+}
+
+/* For small screens */
+@media (max-width: 768px) {
+  .description-container {
+    max-height: none; /* No limit on height for small screens */
+  }
+
+  .project-links a {
+    display: block;
+    margin-top: 10px;
+  }
+}
+
+.description-container p {
+  margin: 0;
+}
+
+/* Scrollbar styles */
+.griditem::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+
+.griditem::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: #dfe9eb;
+}
+
+.griditem::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: rgba(26, 188, 156, 0.25);
+}
+
+.griditem::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(26, 188, 156, 0.25);
+}
