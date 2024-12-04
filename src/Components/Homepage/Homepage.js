@@ -14,7 +14,7 @@ import {
 const Homepage = () => {
   const [jobTitle, setJobTitle] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
-  const jobTitles = ["Senior Software Test Engineer", "Senior QA Engineer"];
+  const jobTitles = ["Senior Software Test Engineer"];
 
   useEffect(() => {
     const updateJobTitle = () => {
