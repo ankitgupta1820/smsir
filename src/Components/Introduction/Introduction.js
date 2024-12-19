@@ -5,8 +5,14 @@ function Introduction() {
   return (
     <div className="intro-container">
       <h1 className="Introsh2">Introduction</h1>
-      <p>
-        {" "}
+      
+
+      
+      <ul>
+        <li>
+          
+        <p>
+        
         Hello, I’m Smrutiranjan Jena, an experienced Software Tester with over
         5+ years in the IT industry. My expertise spans functional testing
         across domains like E-commerce, Transport, ERP systems, and Mobile
@@ -23,11 +29,9 @@ function Introduction() {
         enhancing application performance and user experience. Feel free to
         connect with me to learn more or explore potential collaborations!
       </p>
-      <p>
-        {/* I am also interested in Machine Learning, Artificial Intelligence, Image
-        processing, I have started learning new concepts of them ,and I am
-        looking forward to it... */}
-      </p>
+        </li>
+        </ul>
+     
 
       <h2>Education</h2>
       <ul>
@@ -41,22 +45,7 @@ function Introduction() {
                 Specialization <br />
                 (Orissa Engineering College)
               </p> */}
-        {/* <li>
-          <strong>College:</strong> Superior Group of Colleges
-          <p>
-            I passed my FSc (Pre-Engineering) with{" "}
-            <span className="highlight">98%</span> in
-            <span className="highlight">2021</span>.
-          </p>
-        </li> */}
-        {/* <li>
-          <strong>School:</strong> Sapphire School of Learning
-          <p>
-            I passed my matriculation in Computer Science with{" "}
-            <span className="highlight">94%</span> in
-            <span className="highlight">2019</span>.
-          </p>
-        </li> */}
+     
       </ul>
 
       <h2>Professional Skills</h2>
@@ -79,11 +68,15 @@ function Introduction() {
       </ul>
 
       <h2>Experience</h2>
+      <ul>
+        <li>
       <p>
         I have worked extensively in software testing across various domains,
         ensuring high-quality deliverables and seamless application performance.
         My professional experience includes:
       </p>
+      </li>
+      </ul>
       <ul>
         <li>
           <strong>Snapdeal:</strong> Conducting API testing, functional testing,
@@ -105,10 +98,16 @@ function Introduction() {
       </ul>
 
       <h2>Projects</h2>
-      <p>
+      <ul>
+        <li>
+        <p>
         In addition to my professional experience, I have worked on several
         impactful projects:
       </p>
+
+        </li>
+      </ul>
+      
       <ul>
         <li>
           <strong>Snapdeal Supply Chain Management:</strong> Enhanced the SCM
@@ -139,13 +138,16 @@ function Introduction() {
           industries, covering HR, sales, and inventory modules..
         </li>
       </ul>
-
-      <p>
+   
+   <ul>
+    <li><p>
         I am always eager to learn new technologies and take on challenging
         projects. Feel free to browse through my portfolio to see some of the
         exciting work I’ve been involved in. Let’s connect and explore how we
         can collaborate on your next project!
-      </p>
+      </p></li>
+   </ul>
+      
     </div>
   );
 }
