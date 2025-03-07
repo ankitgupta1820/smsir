@@ -54,7 +54,7 @@ const Homepage = () => {
         <div className="about">{jobTitle}</div>
         <div className="moreabout">
           <br />
-          I am Smrutiranjan Jena, an experienced IT professional with over 5
+          I am Smrutiranjan Jena, an experienced IT professional with over 7
           years in manual and API testing across diverse domains like
           e-commerce, transport, and ERP applications.
           <br />
