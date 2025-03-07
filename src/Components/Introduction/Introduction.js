@@ -14,7 +14,7 @@ function Introduction() {
         <p>
         
         Hello, I’m Smrutiranjan Jena, an experienced Software Tester with over
-        5+ years in the IT industry. My expertise spans functional testing
+        7+ years in the IT industry. My expertise spans functional testing
         across domains like E-commerce, Transport, ERP systems, and Mobile
         applications. I am proficient in manual testing, API testing, and tools
         like Mantis, Jira, and Postman, and have hands-on experience with Agile
